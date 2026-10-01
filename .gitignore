@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scratch & temporary dump files
+extracted_*.json
+*_dump.txt
+m2_outline.txt
+assets/
+
+# OS files
+.DS_Store
+Thumbs.db
