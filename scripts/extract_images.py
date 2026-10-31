@@ -71,4 +71,48 @@ m2_pages = {
 }
 render_pages("IIE_module_2_algorithms(7).pdf", m2_pages, "images/module2")
 
+# Module 3
+m3_pages = {
+    1: "m3_title",
+    4: "m3_assembly_language_mnemonics",
+    6: "m3_machine_vs_assembly_code",
+    7: "m3_python_vs_arm_assembly",
+    9: "m3_language_generations",
+    10: "m3_programming_paradigms",
+    11: "m3_paradigm_evolution",
+    12: "m3_functional_checkbook_example",
+    15: "m3_imperative_unit_structure",
+    19: "m3_2d_array_row_major",
+    21: "m3_python_2d_array",
+    22: "m3_struct_employee_concept",
+    23: "m3_python_struct_class",
+    25: "m3_goto_vs_structured_control",
+    29: "m3_python_match_case",
+    30: "m3_for_loop_structure",
+    35: "m3_function_control_flow",
+    36: "m3_c_project_population",
+    37: "m3_python_project_population",
+    38: "m3_call_by_value_1",
+    39: "m3_call_by_value_2",
+    40: "m3_call_by_value_3",
+    41: "m3_call_by_reference_1",
+    42: "m3_call_by_reference_2",
+    43: "m3_call_by_reference_3",
+    44: "m3_c_cylinder_volume",
+    45: "m3_python_cylinder_volume",
+    48: "m3_oop_laser_gun_class",
+    50: "m3_oop_program_structure",
+    51: "m3_oop_constructor",
+    52: "m3_oop_encapsulation_integrity",
+    53: "m3_oop_java_laser_class",
+    54: "m3_python_laser_class",
+    55: "m3_oop_inheritance_polymorphism_def",
+    56: "m3_python_inheritance",
+    57: "m3_python_overloading",
+    58: "m3_python_overriding",
+    60: "m3_summary"
+}
+render_pages("IIE_module_3_programming_languages(12).pdf", m3_pages, "images/module3")
+
 print("Rendering completed!")
+
