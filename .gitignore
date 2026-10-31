@@ -9,6 +9,8 @@ extracted_*.json
 m2_outline.txt
 assets/
 
-# OS files
+# OS & IDE files
 .DS_Store
 Thumbs.db
+*.code-workspace
+.vscode/
